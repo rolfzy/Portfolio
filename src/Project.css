@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects-section{
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 4rem 1rem;
+    width: 100%;
+}
+
+.projects-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.projects-title{
+    font-size: 3rem ;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg,#ff0080,#00b0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-subtitle{
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 3rem;
+}
+
+.projects-slider{
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding:1rem;
+    scrollbar-width: thin;
+    scrollbar-color: #ff0080 #1b1b1b;
+    width: 100%;
+}
+
+.projects-slider::-webkit-scrollbar{
+    height: 8px;
+}
+
+.projects-slider::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,#ff0080,#00b0ff);
+
+    border-radius: 4px;
+}
+
+
+.projects-card{
+    min-width: 300px;
+    max-width: 400px;
+    width: calc(33.333% - 2rem);
+    flex-shrink: 0;
+    text-align: center;
+
+    background: #1b1b1b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+
+}
+.projects-card:hover{
+    transform: translateY(-5px);
+}
+
+.projects-image{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg,#ff0080,#00b0ff);
+    padding: 3px;
+}
+.web-image{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.uiux-image{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+
+.projects-name{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+
+    background: linear-gradient(45deg,#ff0080,#00b0ff);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-description{
+    color: #cccccc;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+@media (max-width:768px){
+    .projects-slider{
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .projects-card{
+        min-width: 200px;
+    }
+
+    .projects-image{
+        width: 150px;
+    }
+}
