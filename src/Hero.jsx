@@ -1,6 +1,6 @@
 import "react";
 import "./index.css";
-import profileImage from './assets/image/image.jpg';
+import profileImage from './assets/image/image3.jpg';
 
 const Hero = () => {
     return(
