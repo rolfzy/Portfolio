@@ -16,7 +16,7 @@ const Contact = () => {
                 console.log(result.text);
                 Swal.fire({
                     icon:'success',
-                    title:'Email Berhasil Dikirimm!',
+                    title:'Email Berhasil Dikirim!',
                     text:'Terimakasih Telah Menghubungi.',
                     confirmButtonText:'OK'
                 });
@@ -64,7 +64,7 @@ const Contact = () => {
                         <input type="email" id="email" name="email" placeholder="Your Email" />
                         
                         <label htmlFor="message">Message</label>
-                        <input type="text" id="message" name="message" placeholder="Your Message" />
+                        <textarea  id="message" name="message" placeholder="Your Message" />
 
                         <button type="submit" className="send-button">Send</button>
                     </form>
