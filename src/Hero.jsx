@@ -1,8 +1,8 @@
 import "react";
 import "./assets/Style/index.css";
 import profileImage from './assets/image/image3.jpg';
-import WaveBackground from "./assets/Style/waves";
-import ShinyText from "./assets/Style/ShinyText";
+import WaveBackground from "./Style/waves";
+import ShinyText from "./Style/ShinyText";
 
 const Hero = () => {
     return(
