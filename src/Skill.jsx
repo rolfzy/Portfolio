@@ -1,5 +1,5 @@
 import "react";
-import "./Skill.css";
+import "./assets/style/Skill.css";
 import AnimationWrapper from "./Animation";
 
 const Skills = () =>{

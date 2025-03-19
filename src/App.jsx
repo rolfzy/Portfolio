@@ -1,4 +1,4 @@
-import './App.css'
+import './assets/style/App.css'
 import Contact from './Contact'
 import Hero from './Hero'
 import Projects from './Project'

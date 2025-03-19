@@ -1,4 +1,4 @@
-import './ShinyText.css';
+import './assets/style/ShinyText.css';
 import PropTypes from 'prop-types';
 
 const ShinyText = ({ text, disabled = false, speed = 5, className = '' }) => {

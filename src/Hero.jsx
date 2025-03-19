@@ -1,5 +1,5 @@
 import "react";
-import "./index.css";
+import "./assets/style/index.css";
 import profileImage from './assets/image/image3.jpg';
 import WaveBackground from "./waves";
 import ShinyText from "./ShinyText";

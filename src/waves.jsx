@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import './WaveBackground.css';
+import './assets/style/WaveBackground.css';
 import PropTypes from 'prop-types';
 
 class Grad {
