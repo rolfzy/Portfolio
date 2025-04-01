@@ -114,6 +114,7 @@ html {
   flex: 1;
   display: flex;
   justify-content: center;
+  
 }
 
 .hero-image img {
@@ -126,6 +127,11 @@ html {
   border: 2px solid transparent;
   background: linear-gradient(45deg,#ff0080,#00b0ff);
   padding: 3px;
+  transition: transfrom 0.3s  ease;
+}
+
+.hero-image img:hover{
+transform:  scale(1.1);
 }
 
 /* Responsive design */
